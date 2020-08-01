@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for poll in poll_list%}
+        <p>{{poll.poll_name}}</p><br>
+        <p>{{poll.poll_description}}</p><br>
+{% endfor %}
+
+</body>
+</html>
